@@ -118,17 +118,13 @@
      align-items: center;
    }
  
-  header .content-wrapper {
-    align-content: center;
-  }
- 
   header nav {
     display: flex;
     justify-content:space-around;
  }
 
   header nav ul {
-    display: inline-flex;
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -142,13 +138,16 @@
   header nav ul li a {
     color: #cfd1da;
   }
-   
+  header {
+    padding: 15px 0;
+  }
 
    .hero-area {
     display: flex;
     background: url(../img/woman-on-bridge-sm.png) center;
     background-size: cover;
     height: 600px;
+
   }
   .hero-area h1 {
     display: flex;
@@ -159,13 +158,14 @@
     display: flex;
     background: #527158;
     flex-flow: column nowrap;
-
+    padding: 10px 0 25px 0;
   }
+
   .features {
     display: flex;
     background: url('../img/rawpixel-800820-unsplash.png') center;
     background-size: cover;
-    height: 100%;
+    padding: 0px 0px 40px 0px;
   }
 
   .features-items {
@@ -180,6 +180,7 @@
     display: flex;
     background: #2a423a;
     padding-top: 20px;
+    padding-bottom: 20px;
   }
   .reviews img {
     width: 100%;
@@ -187,16 +188,21 @@
   .mission {
     display: flex;
     background: #527158;
+    padding-bottom: 20px;
   }
   .contact-section {
     display: flex;
     background: #2a423a;
+    padding-bottom: 20px;
   }
   footer {
     display: flex;
     flex-flow: column wrap;
-    width: 100%;
     text-align:center;
+    padding-top: 20px;
+  }
+  #social {
+    padding-top:20px;
   }
   .faq {
     display: flex;
